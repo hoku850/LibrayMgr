@@ -1,0 +1,35 @@
+﻿@{
+    Layout = null;
+}
+@model List<Better517Na.LibrayMgr.Models.RrturnBookinfo>
+
+    <table class="table table-hover">
+        <tr class="success font">
+            <td class="font">用户</td>
+            <td class="font">图书条形码</td>
+            <td class="font">书名</td>
+            <td class="font">借书日期</td>
+            <td class="font">预计归还日期</td>
+             <td class="font">缴纳罚款</td>
+             <td class="font">罚款金额</td>
+        </tr>
+ @if (Model != null)
+ {
+     int i = 0;
+     foreach (Better517Na.LibrayMgr.Models.RrturnBookinfo displayInfo in Model)
+     {
+         string styledata = ((i % 2) == 0 ? "double" : "single");
+            <tr class = "active font")>
+                <td class="font">@displayInfo.UserName</td>
+                <td class="font">@displayInfo.BookOrderNum</td>
+                <td class="font">@displayInfo.Booktitle</td>
+                <td class="font">@displayInfo.BorrowDate</td>
+                <td class="font">@displayInfo.ReturnDate</td>
+                <td class="font">@displayInfo.BookPayStat</td>
+                <td class="font">@displayInfo.PayMoney</td>
+            </tr>
+         i++;
+     }
+ }
+    </table>
+

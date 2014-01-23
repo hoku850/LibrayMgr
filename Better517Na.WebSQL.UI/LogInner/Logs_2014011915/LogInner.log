@@ -1,0 +1,779 @@
+2014-01-19 15:07:21 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.LogingThread.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\LogingThread.cs:行号 76
+
+2014-01-19 15:07:21 AppNameStr配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 124
+
+2014-01-19 15:07:21 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.Loging.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\Loging.cs:行号 152
+
+2014-01-19 15:07:21 UiaccStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 133
+
+2014-01-19 15:07:22 ExceptionStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 142
+
+2014-01-19 15:07:22 StatisticsTimeInterval配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 151
+
+2014-01-19 15:07:22 SlowShreshold配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 161
+
+2014-01-19 15:07:22 SmallLogRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 170
+
+2014-01-19 15:07:22 RecordAppCollecttionParams配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 187
+
+2014-01-19 15:07:22 AppRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 204
+
+2014-01-19 15:07:22 RecordDebug配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 221
+
+2014-01-19 15:07:22 ExceptionMinitorLevel配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 238
+
+2014-01-19 15:07:22 IsCloseAllLog配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 255
+
+2014-01-19 15:07:22 InnerTextSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 272
+
+2014-01-19 15:07:22 数据库连接配置获取异常,目标连接AppLogConnection 异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 20
+
+2014-01-19 15:07:22 连接获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 25
+   在 Better.Infrastructures.Log.MySqlLogSink.RefreshConnStrs() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 60
+
+2014-01-19 15:07:22 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:11:19 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.LogingThread.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\LogingThread.cs:行号 76
+
+2014-01-19 15:11:19 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.Loging.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\Loging.cs:行号 152
+
+2014-01-19 15:11:19 AppNameStr配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 124
+
+2014-01-19 15:11:19 UiaccStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 133
+
+2014-01-19 15:11:19 ExceptionStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 142
+
+2014-01-19 15:11:19 StatisticsTimeInterval配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 151
+
+2014-01-19 15:11:19 SlowShreshold配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 161
+
+2014-01-19 15:11:19 SmallLogRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 170
+
+2014-01-19 15:11:19 RecordAppCollecttionParams配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 187
+
+2014-01-19 15:11:19 AppRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 204
+
+2014-01-19 15:11:19 RecordDebug配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 221
+
+2014-01-19 15:11:19 ExceptionMinitorLevel配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 238
+
+2014-01-19 15:11:19 IsCloseAllLog配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 255
+
+2014-01-19 15:11:19 InnerTextSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 272
+
+2014-01-19 15:11:19 数据库连接配置获取异常,目标连接AppLogConnection 异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 20
+
+2014-01-19 15:11:19 连接获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 25
+   在 Better.Infrastructures.Log.MySqlLogSink.RefreshConnStrs() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 60
+
+2014-01-19 15:11:19 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:12:19 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.LogingThread.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\LogingThread.cs:行号 76
+
+2014-01-19 15:12:39 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.LogingThread.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\LogingThread.cs:行号 76
+
+2014-01-19 15:12:40 AppNameStr配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 124
+
+2014-01-19 15:12:40 UiaccStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 133
+
+2014-01-19 15:12:40 ExceptionStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 142
+
+2014-01-19 15:12:40 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.Loging.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\Loging.cs:行号 152
+
+2014-01-19 15:12:40 StatisticsTimeInterval配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 151
+
+2014-01-19 15:12:40 SlowShreshold配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 161
+
+2014-01-19 15:12:40 SmallLogRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 170
+
+2014-01-19 15:12:40 RecordAppCollecttionParams配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 187
+
+2014-01-19 15:12:40 AppRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 204
+
+2014-01-19 15:12:40 RecordDebug配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 221
+
+2014-01-19 15:12:40 ExceptionMinitorLevel配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 238
+
+2014-01-19 15:12:40 IsCloseAllLog配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 255
+
+2014-01-19 15:12:40 InnerTextSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 272
+
+2014-01-19 15:12:40 数据库连接配置获取异常,目标连接AppLogConnection 异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 20
+
+2014-01-19 15:12:40 连接获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 25
+   在 Better.Infrastructures.Log.MySqlLogSink.RefreshConnStrs() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 60
+
+2014-01-19 15:12:40 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:12:43 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:13:09 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.LogingThread.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\LogingThread.cs:行号 76
+
+2014-01-19 15:13:09 AppNameStr配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 124
+
+2014-01-19 15:13:09 UiaccStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 133
+
+2014-01-19 15:13:09 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.Loging.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\Loging.cs:行号 152
+
+2014-01-19 15:13:09 ExceptionStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 142
+
+2014-01-19 15:13:09 StatisticsTimeInterval配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 151
+
+2014-01-19 15:13:09 SlowShreshold配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 161
+
+2014-01-19 15:13:09 SmallLogRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 170
+
+2014-01-19 15:13:09 RecordAppCollecttionParams配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 187
+
+2014-01-19 15:13:09 AppRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 204
+
+2014-01-19 15:13:09 RecordDebug配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 221
+
+2014-01-19 15:13:09 ExceptionMinitorLevel配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 238
+
+2014-01-19 15:13:09 IsCloseAllLog配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 255
+
+2014-01-19 15:13:09 InnerTextSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 272
+
+2014-01-19 15:13:09 数据库连接配置获取异常,目标连接AppLogConnection 异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 20
+
+2014-01-19 15:13:09 连接获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 25
+   在 Better.Infrastructures.Log.MySqlLogSink.RefreshConnStrs() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 60
+
+2014-01-19 15:13:09 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:13:51 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.LogingThread.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\LogingThread.cs:行号 76
+
+2014-01-19 15:13:51 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.Loging.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\Loging.cs:行号 152
+
+2014-01-19 15:13:51 AppNameStr配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 124
+
+2014-01-19 15:13:51 UiaccStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 133
+
+2014-01-19 15:13:51 ExceptionStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 142
+
+2014-01-19 15:13:51 StatisticsTimeInterval配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 151
+
+2014-01-19 15:13:51 SlowShreshold配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 161
+
+2014-01-19 15:13:51 SmallLogRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 170
+
+2014-01-19 15:13:51 RecordAppCollecttionParams配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 187
+
+2014-01-19 15:13:51 AppRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 204
+
+2014-01-19 15:13:51 RecordDebug配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 221
+
+2014-01-19 15:13:51 ExceptionMinitorLevel配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 238
+
+2014-01-19 15:13:51 IsCloseAllLog配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 255
+
+2014-01-19 15:13:51 InnerTextSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 272
+
+2014-01-19 15:13:51 数据库连接配置获取异常,目标连接AppLogConnection 异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 20
+
+2014-01-19 15:13:51 连接获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 25
+   在 Better.Infrastructures.Log.MySqlLogSink.RefreshConnStrs() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 60
+
+2014-01-19 15:13:51 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:14:47 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.LogingThread.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\LogingThread.cs:行号 76
+
+2014-01-19 15:14:47 AppNameStr配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 124
+
+2014-01-19 15:14:47 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.Loging.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\Loging.cs:行号 152
+
+2014-01-19 15:14:47 UiaccStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 133
+
+2014-01-19 15:14:47 ExceptionStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 142
+
+2014-01-19 15:14:47 StatisticsTimeInterval配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 151
+
+2014-01-19 15:14:47 SlowShreshold配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 161
+
+2014-01-19 15:14:47 SmallLogRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 170
+
+2014-01-19 15:14:47 RecordAppCollecttionParams配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 187
+
+2014-01-19 15:14:47 AppRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 204
+
+2014-01-19 15:14:47 RecordDebug配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 221
+
+2014-01-19 15:14:47 ExceptionMinitorLevel配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 238
+
+2014-01-19 15:14:47 IsCloseAllLog配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 255
+
+2014-01-19 15:14:47 InnerTextSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 272
+
+2014-01-19 15:14:47 数据库连接配置获取异常,目标连接AppLogConnection 异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 20
+
+2014-01-19 15:14:47 连接获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 25
+   在 Better.Infrastructures.Log.MySqlLogSink.RefreshConnStrs() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 60
+
+2014-01-19 15:14:48 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:14:56 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:15:38 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.LogingThread.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\LogingThread.cs:行号 76
+
+2014-01-19 15:15:38 AppNameStr配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 124
+
+2014-01-19 15:15:38 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.Loging.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\Loging.cs:行号 152
+
+2014-01-19 15:15:38 UiaccStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 133
+
+2014-01-19 15:15:38 ExceptionStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 142
+
+2014-01-19 15:15:38 StatisticsTimeInterval配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 151
+
+2014-01-19 15:15:38 SlowShreshold配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 161
+
+2014-01-19 15:15:38 SmallLogRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 170
+
+2014-01-19 15:15:38 RecordAppCollecttionParams配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 187
+
+2014-01-19 15:15:38 AppRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 204
+
+2014-01-19 15:15:38 RecordDebug配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 221
+
+2014-01-19 15:15:38 ExceptionMinitorLevel配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 238
+
+2014-01-19 15:15:38 IsCloseAllLog配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 255
+
+2014-01-19 15:15:38 InnerTextSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 272
+
+2014-01-19 15:15:38 数据库连接配置获取异常,目标连接AppLogConnection 异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 20
+
+2014-01-19 15:15:38 连接获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 25
+   在 Better.Infrastructures.Log.MySqlLogSink.RefreshConnStrs() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 60
+
+2014-01-19 15:15:38 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:16:26 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.LogingThread.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\LogingThread.cs:行号 76
+
+2014-01-19 15:16:26 AppNameStr配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 124
+
+2014-01-19 15:16:26 UiaccStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 133
+
+2014-01-19 15:16:26 ExceptionStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 142
+
+2014-01-19 15:16:26 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.Loging.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\Loging.cs:行号 152
+
+2014-01-19 15:16:26 StatisticsTimeInterval配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 151
+
+2014-01-19 15:16:26 SlowShreshold配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 161
+
+2014-01-19 15:16:26 SmallLogRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 170
+
+2014-01-19 15:16:26 RecordAppCollecttionParams配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 187
+
+2014-01-19 15:16:26 AppRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 204
+
+2014-01-19 15:16:26 RecordDebug配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 221
+
+2014-01-19 15:16:26 ExceptionMinitorLevel配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 238
+
+2014-01-19 15:16:26 IsCloseAllLog配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 255
+
+2014-01-19 15:16:26 InnerTextSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 272
+
+2014-01-19 15:16:26 数据库连接配置获取异常,目标连接AppLogConnection 异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 20
+
+2014-01-19 15:16:26 连接获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 25
+   在 Better.Infrastructures.Log.MySqlLogSink.RefreshConnStrs() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 60
+
+2014-01-19 15:16:26 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:16:32 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:16:58 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.LogingThread.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\LogingThread.cs:行号 76
+
+2014-01-19 15:16:58 AppNameStr配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 124
+
+2014-01-19 15:16:58 UiaccStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 133
+
+2014-01-19 15:16:58 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.Loging.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\Loging.cs:行号 152
+
+2014-01-19 15:16:58 ExceptionStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 142
+
+2014-01-19 15:16:58 StatisticsTimeInterval配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 151
+
+2014-01-19 15:16:58 SlowShreshold配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 161
+
+2014-01-19 15:16:58 SmallLogRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 170
+
+2014-01-19 15:16:58 RecordAppCollecttionParams配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 187
+
+2014-01-19 15:16:58 AppRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 204
+
+2014-01-19 15:16:58 RecordDebug配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 221
+
+2014-01-19 15:16:58 ExceptionMinitorLevel配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 238
+
+2014-01-19 15:16:58 IsCloseAllLog配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 255
+
+2014-01-19 15:16:58 InnerTextSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 272
+
+2014-01-19 15:16:58 数据库连接配置获取异常,目标连接AppLogConnection 异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 20
+
+2014-01-19 15:16:58 连接获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 25
+   在 Better.Infrastructures.Log.MySqlLogSink.RefreshConnStrs() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 60
+
+2014-01-19 15:16:58 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:17:04 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:17:07 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:17:08 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:17:13 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:17:16 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:17:18 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:17:20 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:17:22 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:18:43 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.LogingThread.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\LogingThread.cs:行号 76
+
+2014-01-19 15:18:43 AppNameStr配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 124
+
+2014-01-19 15:18:43 UiaccStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 133
+
+2014-01-19 15:18:43 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.Loging.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\Loging.cs:行号 152
+
+2014-01-19 15:18:43 ExceptionStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 142
+
+2014-01-19 15:18:43 StatisticsTimeInterval配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 151
+
+2014-01-19 15:18:43 SlowShreshold配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 161
+
+2014-01-19 15:18:43 SmallLogRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 170
+
+2014-01-19 15:18:43 RecordAppCollecttionParams配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 187
+
+2014-01-19 15:18:43 AppRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 204
+
+2014-01-19 15:18:43 RecordDebug配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 221
+
+2014-01-19 15:18:43 ExceptionMinitorLevel配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 238
+
+2014-01-19 15:18:43 IsCloseAllLog配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 255
+
+2014-01-19 15:18:43 InnerTextSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 272
+
+2014-01-19 15:18:43 数据库连接配置获取异常,目标连接AppLogConnection 异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 20
+
+2014-01-19 15:18:43 连接获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 25
+   在 Better.Infrastructures.Log.MySqlLogSink.RefreshConnStrs() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 60
+
+2014-01-19 15:18:43 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:19:50 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.LogingThread.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\LogingThread.cs:行号 76
+
+2014-01-19 15:19:50 AppNameStr配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 124
+
+2014-01-19 15:19:50 UiaccStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 133
+
+2014-01-19 15:19:50 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.Loging.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\Loging.cs:行号 152
+
+2014-01-19 15:19:50 ExceptionStatSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 142
+
+2014-01-19 15:19:50 StatisticsTimeInterval配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 151
+
+2014-01-19 15:19:50 SlowShreshold配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 161
+
+2014-01-19 15:19:50 SmallLogRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 170
+
+2014-01-19 15:19:50 RecordAppCollecttionParams配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 187
+
+2014-01-19 15:19:50 AppRecord配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 204
+
+2014-01-19 15:19:50 RecordDebug配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 221
+
+2014-01-19 15:19:50 ExceptionMinitorLevel配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 238
+
+2014-01-19 15:19:50 IsCloseAllLog配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 255
+
+2014-01-19 15:19:50 InnerTextSwitch配置获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConfigFetcher.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\CommonHelpers\ConfigFetcher.cs:行号 272
+
+2014-01-19 15:19:50 数据库连接配置获取异常,目标连接AppLogConnection 异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 20
+
+2014-01-19 15:19:50 连接获取异常 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.ConnectionFactory.GetConnectionString(String str) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\ConnectionFactory.cs:行号 25
+   在 Better.Infrastructures.Log.MySqlLogSink.RefreshConnStrs() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 60
+
+2014-01-19 15:19:50 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:20:22 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:20:23 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:20:31 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:20:45 System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.get_Item(Object key)
+   在 MySql.Data.MySqlClient.MySqlPoolManager.GetPool(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Better.Infrastructures.Log.MysqlLogDataAccess.InsertLog(MUiacc model, String connStr) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\MySqlDal\MysqlLogDataAccess.cs:行号 830
+   在 Better.Infrastructures.Log.MySqlLogSink.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\MySqlLogSink.cs:行号 195
+   在 Better.Infrastructures.Log.LogWriter.UIAcc(String trackID, String moduel, String submoduel, String operation, TimeSpan timePeriod, String excptionId, String localIp, String machineName, String userName, String userIP, String pnr, String orderID, String keyMessage, String exceptionLevel, String key) 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\LogSink\LogWriter.cs:行号 119
+
+2014-01-19 15:43:09 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Better.Infrastructures.Log.LogingThread.RefreshConfig() 位置 D:\SVN\InfrastructureLog\trunk\Better.Infrastructures.Log\Log\LogingThread.cs:行号 76
+

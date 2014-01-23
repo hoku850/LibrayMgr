@@ -1,0 +1,22 @@
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.IDAL\bin\Debug\Better517Na.WebSQL.IDAL.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.IDAL\bin\Debug\Better517Na.WebSQL.IDAL.pdb
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.IDAL\bin\Debug\Better.Infrastructures.DBUtility.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.IDAL\bin\Debug\Better517Na.WebSQL.Models.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.IDAL\bin\Debug\MySql.Data.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.IDAL\bin\Debug\Better517Na.WebSQL.Models.pdb
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.IDAL\bin\Debug\Better.Infrastructures.DBUtility.pdb
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.IDAL\bin\Debug\Better.Infrastructures.DBUtility.xml
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.IDAL\obj\Debug\Better517Na.WebSQL.IDAL.csprojResolveAssemblyReference.cache
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.IDAL\obj\Debug\Better517Na.WebSQL.IDAL.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.IDAL\obj\Debug\Better517Na.WebSQL.IDAL.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\bin\Debug\Better517Na.WebSQL.IDAL.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\bin\Debug\Better517Na.WebSQL.IDAL.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\bin\Debug\Better.Infrastructures.DBUtility.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\bin\Debug\Better517Na.WebSQL.Models.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\bin\Debug\MySql.Data.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\bin\Debug\Better517Na.WebSQL.Models.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\bin\Debug\Better.Infrastructures.DBUtility.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\bin\Debug\Better.Infrastructures.DBUtility.xml
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\obj\Debug\Better517Na.WebSQL.IDAL.csprojResolveAssemblyReference.cache
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\obj\Debug\Better517Na.WebSQL.IDAL.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\obj\Debug\Better517Na.WebSQL.IDAL.pdb

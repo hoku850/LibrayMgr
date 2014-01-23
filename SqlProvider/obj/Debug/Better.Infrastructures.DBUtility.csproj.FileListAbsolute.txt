@@ -1,0 +1,17 @@
+C:\Users\shaoyu\Documents\Visual Studio 2008\Projects\Project1\Staffinfo\SqlProvider\bin\Debug\Better.Infrastructures.DBUtility.dll
+C:\Users\shaoyu\Documents\Visual Studio 2008\Projects\Project1\Staffinfo\SqlProvider\bin\Debug\Better.Infrastructures.DBUtility.pdb
+C:\Users\shaoyu\Documents\Visual Studio 2008\Projects\Project1\Staffinfo\SqlProvider\bin\Debug\MySql.Data.dll
+C:\Users\shaoyu\Documents\Visual Studio 2008\Projects\Project1\Staffinfo\SqlProvider\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\shaoyu\Documents\Visual Studio 2008\Projects\Project1\Staffinfo\SqlProvider\obj\Debug\Better.Infrastructures.DBUtility.dll
+C:\Users\shaoyu\Documents\Visual Studio 2008\Projects\Project1\Staffinfo\SqlProvider\obj\Debug\Better.Infrastructures.DBUtility.pdb
+C:\Users\shaoyu\Documents\Visual Studio 2012\Projects\WebSQL\SqlProvider\bin\Debug\Better.Infrastructures.DBUtility.XML
+C:\Users\shaoyu\Documents\Visual Studio 2012\Projects\WebSQL\SqlProvider\bin\Debug\Better.Infrastructures.DBUtility.dll
+C:\Users\shaoyu\Documents\Visual Studio 2012\Projects\WebSQL\SqlProvider\bin\Debug\Better.Infrastructures.DBUtility.pdb
+C:\Users\shaoyu\Documents\Visual Studio 2012\Projects\WebSQL\SqlProvider\obj\Debug\Better.Infrastructures.DBUtility.csprojResolveAssemblyReference.cache
+C:\Users\shaoyu\Documents\Visual Studio 2012\Projects\WebSQL\SqlProvider\obj\Debug\Better.Infrastructures.DBUtility.dll
+C:\Users\shaoyu\Documents\Visual Studio 2012\Projects\WebSQL\SqlProvider\obj\Debug\Better.Infrastructures.DBUtility.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\SqlProvider\bin\Debug\Better.Infrastructures.DBUtility.XML
+C:\Users\shaoyu\Desktop\图书管理系统\SqlProvider\bin\Debug\Better.Infrastructures.DBUtility.dll
+C:\Users\shaoyu\Desktop\图书管理系统\SqlProvider\bin\Debug\Better.Infrastructures.DBUtility.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\SqlProvider\obj\Debug\Better.Infrastructures.DBUtility.dll
+C:\Users\shaoyu\Desktop\图书管理系统\SqlProvider\obj\Debug\Better.Infrastructures.DBUtility.pdb

@@ -1,0 +1,11 @@
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\bin\Debug\Better517Na.WebSQL.IDAL.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\bin\Debug\Better517Na.WebSQL.IDAL.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\bin\Debug\Better.Infrastructures.DBUtility.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\bin\Debug\Better517Na.WebSQL.Models.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\bin\Debug\MySql.Data.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\bin\Debug\Better517Na.WebSQL.Models.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\bin\Debug\Better.Infrastructures.DBUtility.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\bin\Debug\Better.Infrastructures.DBUtility.xml
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\obj\Debug\Better517Na.LibrayMgr.IDAL.csprojResolveAssemblyReference.cache
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\obj\Debug\Better517Na.WebSQL.IDAL.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.IDAL\obj\Debug\Better517Na.WebSQL.IDAL.pdb

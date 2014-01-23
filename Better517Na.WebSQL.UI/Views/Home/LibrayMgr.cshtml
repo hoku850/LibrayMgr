@@ -1,0 +1,48 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model List<Better517Na.LibrayMgr.Models.DisplayInfo>
+@{
+    ViewBag.Title = "LibrayMgr";
+    if (ViewBag.BelongDeptId == null)
+    {
+        ViewBag.BelongDeptId = 0;
+    }
+}
+
+@section scripts
+{
+    <link href="~/Content/MainPageStyleSheet.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.7.1.min.js"></script>
+    <script src="~/Scripts/Libraymager.js"></script>
+}
+<div id="mainpage">
+
+    <div class="UserList">
+        <div class="Chaxun">
+            <label>书名</label>
+        </div>
+        <div class="Chaxun">
+            <input type="text" id="chaStaffName" name="chaStaffName" value ="@ViewBag.Bookname" maxlength="50" size = "18"/>
+        </div>
+        <div class="butQuery">
+            <input id="Querybut" type="button" class="modi" value="查询" onclick="QueryBook()" />
+        </div>
+        <div class="butBorow">
+            <input type="button" class="modi" value="借书" onclick="location.href = 'Home/BorrowBook'" />
+        </div>
+        <div class="backbook">
+            <input type="button" class="modi" value="还书" onclick="location.href = 'Home/ReturnBook'"/>
+        </div>
+        <div class="butquerbro">
+            <input type="button" class="modi" value="借阅查询" onclick="location.href = 'Home/BorrowBookQuery'" />
+        </div>
+    </div>
+    <div id="querylist" class="UserList">
+        @{Html.RenderPartial("BookList", Model);}
+    </div>
+
+</div>
+
+

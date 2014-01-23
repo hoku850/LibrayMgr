@@ -1,0 +1,84 @@
+﻿.return {
+    margin: auto;
+    padding-top: 10px;
+    width: 500px;
+    background-color: bisque;
+    height: auto;
+}
+
+.returnhead {
+    margin: 0;
+    width: 500px;
+}
+
+.hrclored {
+    height: 2px;
+    background-color: beige;
+}
+
+.returnhead {
+    width: 500px;
+    height: 60px;
+    margin: auto;
+}
+
+.titlereturn {
+    width: 100px;
+    float: left;
+}
+
+.titleback {
+    float: right;
+}
+
+.hrclored {
+    background-color: #edc423;
+    height: 2px;
+    margin-top: 30px;
+    width: 500px;
+}
+
+.returnpage {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
+
+.Blocklist {
+    width: 400px;
+    height: auto;
+    padding-top: 20px;
+    clear: both;
+    margin: auto;
+}
+
+.ListTitle {
+    width: 100px;
+    float: left;
+    text-align: right;
+}
+
+.title_right {
+    width: auto;
+    float: left;
+    text-align: left;
+}
+
+.retmodi {
+    color: red;
+    border-radius: 3px;
+    border: none;
+    width: auto;
+    height: auto;
+    background-color:rgba(57, 90, 95, 0.48)
+}
+.butreturn {
+    width: 60px;
+    padding-top: 5px;
+    margin:auto;
+}
+.retbutdiv {
+padding-top: 10px;
+float: left;
+padding-right: 30px;
+}

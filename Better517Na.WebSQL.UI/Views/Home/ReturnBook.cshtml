@@ -1,0 +1,72 @@
+﻿@{
+    ViewBag.Title = "ReturnBook";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section scripts
+{
+    <script src="~/Scripts/jquery-1.7.1.js"></script>
+    <script src="~/Scripts/ReturnJs.js"></script>
+}
+<link href="~/Content/returnSheet.css" rel="stylesheet" />
+
+<div class="return">
+    <div class="returnhead">
+        <div class="titlereturn">
+            <label>图书归还>></label>
+        </div>
+        <div class="titleback">
+            <a onclick="location.href = '../'">返回</a>
+        </div>
+        <hr class="hrclored" />
+    </div>
+    <div class="returnbook">
+        <div class="returnpage">
+            <div class="Blocklist">
+                <div class="ListTitle">
+                    图书条形码：
+                </div>
+                <div class="title_right">
+                    <input type="text" id="orguid" name="bookguid" maxlength="36" /><em>*</em>
+                    <label id="returnbooklab" hidden="hidden">必须填写</label>
+                </div>
+            </div>
+            <div class="Blocklist">
+                <div class="ListTitle">
+                    借阅人：
+                </div>
+                <div class="title_right">
+                    <label id="labborrowman"></label>
+                </div>
+            </div>
+            <div class="Blocklist">
+                <div class="ListTitle">
+                    书名：
+                </div>
+                <div class="title_right">
+                    <label id="labbookname"></label>
+                </div>
+            </div>
+            <div id ="returnbook" class="Blocklist">
+                <div class="butreturn">
+                    <input type="button" value="归还" id="butreturnbook" class="modi" disabled="disabled" onclick ="ReturnBook(0)"/>
+                </div>
+            </div>
+            <div id="retouttimebook"  class="Blocklist" style="display: none">
+                <div class="title_right">
+                    <label id="retlabmessage"></label>
+                </div>
+                <div class="retbutdiv">
+                    <input type="button" value="立即缴纳罚款并还书" id="retbookmaney" class="retmodi"onclick ="ReturnBook(1)" />
+                </div>
+                <div class="retbutdiv">
+                    <input type="button" value="还书但暂时不缴纳罚款" id="retbook" class="retmodi"onclick ="ReturnBook(2)" />
+                </div>
+                <div class="retbutdiv">
+                    <input type="button" value="取消" id="retcancle" class="retmodi" onclick="location.href = '../'"/>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

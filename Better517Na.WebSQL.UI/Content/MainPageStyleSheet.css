@@ -1,0 +1,135 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    color: #555;
+    line-height: 150%;
+    text-align: left;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+/*超链接*/
+a, a:hover, a:active, a:after {
+    float: left;
+    text-decoration: none;
+    padding: 4px 15px 0 0;
+    margin-right: 8px;
+    font-family: "Microsoft YaHei";
+    color: black;
+}
+
+.mainpage {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.UserList {
+    margin: 0 auto;
+    width: 1000px;
+    background: #f1f1f1;
+    padding-top: 20px;
+}
+
+.Title {
+    margin: 20px auto 0 auto;
+    width: 150px;
+}
+
+/*设置字体*/
+.font {
+    font-family: "Microsoft YaHei";
+}
+
+.modi {
+    background: #116af1;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    width: 60px;
+    height: auto;
+}
+
+.addbut {
+    margin: 20px auto 0 auto;
+    width: 150px;
+}
+
+.tablestyle {
+    margin: 0 auto;
+}
+
+.contianall {
+    height: auto;
+    width: 400px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.Block {
+    height: auto;
+    clear: both;
+    padding-top: 20px;
+    margin: auto;
+}
+
+
+
+
+
+button {
+    width: 50px;
+    margin-left: 50px;
+    clear: both;
+}
+
+.Blocklast {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.lastbut {
+    width: 50px;
+    float: left;
+    text-align: right;
+    padding-left: 50px;
+}
+
+.Chaxun {
+    width: 120px;
+    float: left;
+    text-align: right;
+}
+
+.butQuery {
+    margin-left: 50px;
+    float: left;
+    width: 50px;
+}
+
+.butBorow {
+    margin-left: 100px;
+    float: left;
+    width: 50px;
+}
+
+.backbook {
+    float: left;
+    width: 50px;
+}
+
+.butquerbro {
+    float: left;
+    width: 50px;
+}
+
+.editbut {
+    float: left;
+    width: 50px;
+}
+
+.EditcloseBtn {
+    margin-left: 20px;
+    float: left;
+    width: 50px;
+}
+

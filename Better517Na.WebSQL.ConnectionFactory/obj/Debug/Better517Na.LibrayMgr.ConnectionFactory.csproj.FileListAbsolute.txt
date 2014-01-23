@@ -1,0 +1,4 @@
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.ConnectionFactory\bin\Debug\Better517Na.WebSQL.ConnectionFactory.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.ConnectionFactory\bin\Debug\Better517Na.WebSQL.ConnectionFactory.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.ConnectionFactory\obj\Debug\Better517Na.WebSQL.ConnectionFactory.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.ConnectionFactory\obj\Debug\Better517Na.WebSQL.ConnectionFactory.pdb

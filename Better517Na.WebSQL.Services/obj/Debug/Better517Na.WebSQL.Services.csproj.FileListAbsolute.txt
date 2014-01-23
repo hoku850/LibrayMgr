@@ -1,0 +1,10 @@
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.Services\bin\Debug\Better517Na.WebSQL.Services.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.Services\bin\Debug\Better517Na.WebSQL.Services.pdb
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.Services\obj\Debug\Better517Na.WebSQL.Services.csprojResolveAssemblyReference.cache
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.Services\obj\Debug\Better517Na.WebSQL.Services.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.Services\obj\Debug\Better517Na.WebSQL.Services.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.Services\bin\Debug\Better517Na.WebSQL.Services.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.Services\bin\Debug\Better517Na.WebSQL.Services.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.Services\obj\Debug\Better517Na.WebSQL.Services.csprojResolveAssemblyReference.cache
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.Services\obj\Debug\Better517Na.WebSQL.Services.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.Services\obj\Debug\Better517Na.WebSQL.Services.pdb

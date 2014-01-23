@@ -1,0 +1,61 @@
+﻿.Borrow {
+    width: 800px;
+    padding-top: 100px;
+    margin: auto;
+}
+
+em {
+    color: Red;
+}
+
+.borrowpage {
+    height: 300px;
+    width: 300px;
+    padding-top: 10px;
+    background-color: bisque;
+    margin: auto;
+}
+
+.butdiv {
+    padding-top: 20px;
+    margin-left: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+.Blocklist {
+    width: 300px;
+    height: auto;
+    padding-top: 20px;
+    clear: both;
+    margin: auto;
+}
+
+.ListTitle {
+    width: 100px;
+    float: left;
+    text-align: right;
+}
+
+.title_right {
+    width: 500px;
+    text-align: left;
+}
+
+.bormodi {
+    background: #116af1;
+    color: #fff;
+    width: auto;
+    height: auto;
+}
+
+.Butnlist {
+    width: 200px;
+    margin: auto;
+}
+
+.MesgBuntn {
+    width: 300px;
+    margin: auto;
+}

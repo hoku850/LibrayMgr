@@ -1,0 +1,132 @@
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.UI.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.UI.pdb
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Antlr3.Runtime.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\EntityFramework.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Microsoft.Web.Infrastructure.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Newtonsoft.Json.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\System.Net.Http.Formatting.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\System.Web.Http.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\System.Web.Http.WebHost.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\System.Web.Mvc.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\System.Web.Optimization.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\System.Web.Providers.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\System.Web.Razor.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\System.Web.WebPages.Deployment.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\System.Web.WebPages.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\System.Web.WebPages.Razor.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\WebGrease.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\EntityFramework.xml
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Newtonsoft.Json.xml
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\System.Net.Http.Formatting.xml
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\System.Web.Http.xml
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\System.Web.Http.WebHost.xml
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\System.Web.Mvc.xml
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\System.Web.Razor.xml
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\System.Web.WebPages.xml
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\System.Web.WebPages.Deployment.xml
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\System.Web.WebPages.Razor.xml
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\zh-Hans\EntityFramework.resources.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\zh-Hans\System.Web.Http.resources.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\zh-Hans\System.Web.Mvc.resources.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\zh-Hans\System.Web.Optimization.resources.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\zh-Hans\System.Web.Providers.resources.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\zh-Hans\System.Web.Razor.resources.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\zh-Hans\System.Web.WebPages.resources.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\obj\Debug\Better517Na.WebSQL.UI.csprojResolveAssemblyReference.cache
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\obj\Debug\Better517Na.WebSQL.UI.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\obj\Debug\Better517Na.WebSQL.UI.pdb
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.Models.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.Models.pdb
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.Controllers.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.Controllers.pdb
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better.Infrastructures.Log.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\log4net.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better.SecurityUtility.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\MySql.Data.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better.Infrastructures.Log.pdb
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better.Infrastructures.Log.xml
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\log4net.xml
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better.SecurityUtility.pdb
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better.Infrastructures.DBUtility.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.Business.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.IDAL.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.Factory.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.ConnectionFactory.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.DAL.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better.Infrastructures.DBUtility.pdb
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better.Infrastructures.DBUtility.xml
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.Business.pdb
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.IDAL.pdb
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.Factory.pdb
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.ConnectionFactory.pdb
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.DAL.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.UI.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.UI.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Antlr3.Runtime.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better.Infrastructures.DBUtility.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.Controllers.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.Models.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\EntityFramework.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Newtonsoft.Json.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\System.Net.Http.Formatting.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\System.Web.Http.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\System.Web.Http.WebHost.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\System.Web.Mvc.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\System.Web.Optimization.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\System.Web.Providers.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\System.Web.Razor.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\System.Web.WebPages.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\WebGrease.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better.Infrastructures.Log.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.Business.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\MySql.Data.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\log4net.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better.SecurityUtility.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.IDAL.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.Factory.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.ConnectionFactory.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.DAL.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.Controllers.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.Models.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better.Infrastructures.DBUtility.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better.Infrastructures.DBUtility.xml
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\EntityFramework.xml
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Newtonsoft.Json.xml
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\System.Net.Http.Formatting.xml
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\System.Web.Http.xml
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\System.Web.Http.WebHost.xml
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\System.Web.Mvc.xml
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\System.Web.Razor.xml
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\System.Web.WebPages.xml
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better.Infrastructures.Log.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better.Infrastructures.Log.xml
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.Business.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\log4net.xml
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better.SecurityUtility.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.IDAL.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.Factory.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.ConnectionFactory.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\Better517Na.WebSQL.DAL.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\zh-Hans\EntityFramework.resources.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\zh-Hans\System.Web.Optimization.resources.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\zh-Hans\System.Web.Providers.resources.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\obj\Debug\Better517Na.WebSQL.UI.csprojResolveAssemblyReference.cache
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\obj\Debug\Better517Na.WebSQL.UI.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.UI\obj\Debug\Better517Na.WebSQL.UI.pdb

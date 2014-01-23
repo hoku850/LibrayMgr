@@ -1,0 +1,35 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model List<Better517Na.LibrayMgr.Models.RrturnBookinfo>
+
+@section scripts
+{
+    <script src="~/Scripts/jquery-1.7.1.min.js"></script>
+    <script src="~/Scripts/QueryBorrowBook.js"></script>
+}
+<link href="~/Content/Queryborrowbook.css" rel="stylesheet" />
+<div id="mainpage">
+    <div class="UserList">
+        <div class="Chaxun">
+            <label>用户</label>
+        </div>
+        <div class="Chaxun">
+            <input type="text" id="borroname" name="chaStaffName" maxlength="50" size = "18"/>
+        </div>
+        <div class="butQuery">
+            <input id="Querybut" type="button" class="modi" value="查询" onclick="QueryBorrowBook()" />
+        </div>
+        <div class="butBorow">
+            <input id="isdispbook" type="checkbox" />显示已还图书
+        </div>
+        <div class="butquerbro">
+            <input type="button" class="modi" value="图书查询" onclick="location.href = '../'" />
+        </div>
+    </div>
+    <div id="borrowquerylist" class="UserList">
+        @{Html.RenderPartial("BorrowList", Model);}
+    </div>
+
+</div>
+

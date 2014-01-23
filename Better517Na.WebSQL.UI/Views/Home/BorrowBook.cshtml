@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "BorrowBook";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section scripts
+{
+    <script src="~/Scripts/jquery-1.7.1.js"></script>
+    <script src="~/Scripts/Libraymager.js"></script>
+    <link href="~/Content/BorrowSheet.css" rel="stylesheet" />
+}
+
+<div class="Borrow" style="text-align: center; width: 500px; height: 400px">
+    <div class="borrowpage">
+        <div class="Blocklist">
+            <div class="ListTitle">
+                图书条形码：
+            </div>
+            <div class="title_right">
+                <input type="text" id="bookid" name="bookguid" value ="" maxlength ="36"/><em>*</em>
+                <label id="labbookid" hidden="hidden">必须填写</label>
+            </div>
+        </div>
+        <div class="Blocklist">
+            <div class="ListTitle">
+                借阅人：
+            </div>
+            <div class="title_right">
+                <input type="text" id="borrowman" name="name" disabled="disabled" value ="" maxlength = "50"/><em>*</em>
+                <label id="labborrowman" hidden="hidden">必须填写</label>
+            </div>
+        </div>
+        <div class="Blocklist">
+            <div class="ListTitle">
+                书名：
+            </div>
+            <div class="title_right">
+                <label id="labbookname"></label>
+                <label id="message"></label>
+            </div>
+        </div>
+
+        <div id ="borrowbut" class="Butnlist">
+            <div class="butdiv">
+                <input type="button" value="借阅" id="BorrowbtnOK" class="bormodi" disabled="disabled" />
+            </div>
+            <div class="butdiv">
+                <input type="button" value="返回" id="butback" class="bormodi" onclick="location.href = '../'" />
+            </div>
+        </div>
+        <div id ="erromessage" class="MesgBuntn" style="display: none">
+            <div class="Blocklist">
+                <label id="borrowmessage"></label>
+            </div>
+            <div class="butdiv">
+                <input type="button" value="立即缴纳罚款并还书" id="borbookmaney" class="bormodi" />
+            </div>
+            <div class="butdiv">
+                <input type="button" value="取消" id="cancleborrow" onclick="location.href = '../'" class="bormodi" />
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,5 @@
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.Models\bin\Debug\Better517Na.WebSQL.Models.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.Models\bin\Debug\Better517Na.WebSQL.Models.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.Models\obj\Debug\Better517Na.WebSQL.Models.dll
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.Models\obj\Debug\Better517Na.WebSQL.Models.pdb
+C:\Users\shaoyu\Desktop\图书管理系统\Better517Na.WebSQL.Models\obj\Debug\Better517Na.LibrayMgr.Models.csprojResolveAssemblyReference.cache

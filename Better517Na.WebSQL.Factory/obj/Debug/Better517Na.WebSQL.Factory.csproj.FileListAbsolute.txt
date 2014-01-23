@@ -1,0 +1,5 @@
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.Factory\bin\Debug\Better517Na.WebSQL.Factory.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.Factory\bin\Debug\Better517Na.WebSQL.Factory.pdb
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.Factory\obj\Debug\Better517Na.WebSQL.Factory.csprojResolveAssemblyReference.cache
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.Factory\obj\Debug\Better517Na.WebSQL.Factory.dll
+c:\users\shaoyu\documents\visual studio 2012\Projects\WebSQL\Better517Na.WebSQL.Factory\obj\Debug\Better517Na.WebSQL.Factory.pdb

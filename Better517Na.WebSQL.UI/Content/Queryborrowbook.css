@@ -1,0 +1,57 @@
+﻿
+    body {
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    color: #555;
+    line-height: 150%;
+    text-align: left;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+    .mainpage {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.UserList {
+    margin: 0 auto;
+    width: 1000px;
+    background: #f1f1f1;
+    padding-top: 20px;
+}
+.Chaxun {
+    width: 120px;
+    float: left;
+    text-align: right;
+}
+
+.butQuery {
+    margin-left: 50px;
+    float: left;
+    width: 50px;
+}
+
+.butBorow {
+    margin-left: 100px;
+    float: left;
+    width: 50px;
+}
+.butquerbro {
+    float: left;
+    width: 50px;
+}
+.UserList {
+    margin: 0 auto;
+    width: 1000px;
+    background: #f1f1f1;
+    padding-top: 20px;
+}
+.modi {
+    background: #116af1;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    width: 60px;
+    height: auto;
+}
